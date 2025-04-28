@@ -1,0 +1,402 @@
+/***** MAIN STUFF *****/
+
+:root {
+	--accent1:129, 221, 227;
+	--accent2:227, 205, 129;
+	--gradient:linear-gradient(to right, rgba(var(--accent1),0.6), rgba(var(--accent2),0.6));
+}
+
+.BG1 {
+  background: var(--gradient);
+padding: 25px; 
+width: 490px; 
+height: 750px; 
+ border-radius: 20px;
+}
+
+.BG2 {
+padding: 10px; 
+width: 440px; 
+height: 700px; 
+background-color: #333333; 
+ border-radius: 20px;
+}
+
+.BG2 .name {
+color: rgba(var(--accent1), 1); 
+padding-top: 10px; 
+padding-bottom: 25px; 
+text-align: center;
+text-transform: uppercase;
+font-size: 35px; 
+  font-weight: bold;
+font-family: 'Poppins', arial;
+ }
+
+.BG3 {
+margin-right: 15px; 
+padding: 2px, 0px, 5px, 0px; 
+width: 408px; 
+height: 620px; 
+overflow-y: auto; 
+overflow-x: hidden; 
+}
+
+.BG3::-webkit-scrollbar{width:3px}
+.BG3::-webkit-scrollbar-track{background:transparent!important;border:none!important}
+.BG3::-webkit-scrollbar-thumb{background: rgba(var(--accent2), 1)}
+
+.BG3 a:hover { 
+text-transform: uppercase;
+}
+    .tracker-item { margin-left: 2em; margin-bottom: 0.5em;}
+    .fizzhistorywrap {display: none; visibility: hidden; }
+    #trackerwrap .tracker-item, #altwrap .tracker-item { text-indent: -1.5em;}
+    .tracker-item .status { width: 1.5em; text-align: center;}
+    .tracker-item .caughtup {color: green;}
+    .tracker-item .myturn {color: brown;}
+    .tracker-item * {text-indent: 0;}
+    #fizztrackercredits { font-size: 90%; font-family: roboto, verdana, arial, sans; }
+
+
+/***** AFTERNOON MEMBERGROUP *****/
+#afternoon {
+	--accent1:1, 124, 128;
+	--accent2:44, 145, 80;
+	--gradient:linear-gradient(to right, rgba(var(--accent1),0.6), rgba(var(--accent2),0.6));
+}
+
+/***** AIRY MEMBERGROUP *****/
+#airy {
+	--accent1:237, 145, 171;
+	--accent2:244, 200, 171;
+	--gradient:linear-gradient(to right, rgba(var(--accent1),0.6), rgba(var(--accent2),0.6));
+}
+
+/***** ALPENGLOW MEMBERGROUP *****/
+#alpenglow {
+	--accent1:224, 98, 90;
+	--accent2:69, 173, 98;
+	--gradient:linear-gradient(to right, rgba(var(--accent1),0.6), rgba(var(--accent2),0.6));
+}
+
+/***** AMBROSIAL MEMBERGROUP *****/
+#ambrosial {
+	--accent1:246, 88, 184;
+	--accent2:87, 201, 131;
+	--gradient:linear-gradient(to right, rgba(var(--accent1),0.6), rgba(var(--accent2),0.6));
+}
+
+/***** AUTUMNAL MEMBERGROUP *****/
+#autumnal {
+	--accent1:255, 110, 48;
+	--accent2:191, 40, 80;
+	--gradient:linear-gradient(to right, rgba(var(--accent1),0.6), rgba(var(--accent2),0.6));
+
+}
+
+/***** AVALANCHE MEMBERGROUP *****/
+#avalanche {
+	--accent1:120, 189, 194;
+	--accent2:230, 147, 172;
+	--gradient:linear-gradient(to right, rgba(var(--accent1),0.6), rgba(var(--accent2),0.6));
+}
+
+/***** BLACKOUT MEMBERGROUP *****/
+#blackout {
+	--accent1:39, 104, 145;
+    	--accent2:149, 92, 179;
+	--gradient:linear-gradient(to right, rgba(var(--accent1),0.6), rgba(var(--accent2),0.6));
+}
+
+/***** BLIZZARD MEMBERGROUP *****/
+#blizzard {
+	--accent1:90, 199, 179;
+    	--accent2:75, 104, 219;
+	--gradient:linear-gradient(to right, rgba(var(--accent1),0.6), rgba(var(--accent2),0.6));
+}
+
+/***** BLOODMOON MEMBERGROUP *****/
+#bloodmoon {
+	--accent1:227, 69, 101;
+	--accent2:181, 22, 63;
+	--gradient:linear-gradient(to right, rgba(var(--accent1),0.6), rgba(var(--accent2),0.6));
+}
+
+/***** BLOOM MEMBERGROUP *****/
+#bloom {
+	--accent1:220, 65, 129;
+	--accent2:255, 123, 152;
+	--gradient:linear-gradient(to right, rgba(var(--accent1),0.6), rgba(var(--accent2),0.6));
+}
+
+/***** BLOSSOMING MEMBERGROUP *****/
+#blossoming {
+	--accent1:252, 98, 137;
+	--accent2:252, 144, 109;
+	--gradient:linear-gradient(to right, rgba(var(--accent1),0.6), rgba(var(--accent2),0.6));
+}
+
+/***** BONFIRE MEMBERGROUP *****/
+#bonfire {
+	--accent1:235, 74, 68;
+    	--accent2:255, 165, 37;
+	--gradient:linear-gradient(to right, rgba(var(--accent1),0.6), rgba(var(--accent2),0.6));
+}
+
+/***** BREEZY MEMBERGROUP *****/
+#breezy {
+	--accent1:70, 112, 241;
+    	--accent2:241, 197, 63;
+	--gradient:linear-gradient(to right, rgba(var(--accent1),0.6), rgba(var(--accent2),0.6));
+}
+
+
+/***** DAWN MEMBERGROUP *****/
+#dawn {
+	--accent1:128, 83, 173;
+	--accent2:224, 165, 144;
+	--gradient:linear-gradient(to right, rgba(var(--accent1),0.6), rgba(var(--accent2),0.6));
+}
+
+
+/***** DRIZZLE MEMBERGROUP *****/
+#drizzle {
+	--accent1:167, 204, 120;
+	--accent2:126, 204, 176;
+	--gradient:linear-gradient(to right, rgba(var(--accent1),0.6), rgba(var(--accent2),0.6));
+}
+
+/***** DUSK MEMBERGROUP *****/
+#dusk {
+	--accent1:72, 169, 206;
+	--accent2:206, 72, 109;
+	--gradient:linear-gradient(to right, rgba(var(--accent1),0.6), rgba(var(--accent2),0.6));
+}
+
+/***** ECLIPSE MEMBERGROUP *****/
+#eclipse {
+	--accent1:72, 85, 206;
+	--accent2:206, 72, 88;
+	--gradient:linear-gradient(to right, rgba(var(--accent1),0.6), rgba(var(--accent2),0.6));
+}
+
+/***** EQUINOX MEMBERGROUP *****/
+#equinox {
+	--accent1:238, 153, 43;
+	--accent2:151, 98, 239;
+	--gradient:linear-gradient(to right, rgba(var(--accent1),0.6), rgba(var(--accent2),0.6));
+}
+
+/***** EVENING MEMBERGROUP *****/
+#evening {
+	--accent1:180, 72, 120;
+	--accent2:127, 111, 175;
+	--gradient:linear-gradient(to right, rgba(var(--accent1),0.6), rgba(var(--accent2),0.6));
+}
+
+/***** EVERGREEN MEMBERGROUP *****/
+#evergreen {
+	--accent1:51, 130, 119;
+    	--accent2:117, 179, 26;
+	--gradient:linear-gradient(to right, rgba(var(--accent1),0.6), rgba(var(--accent2),0.6));
+}
+
+/***** FROST MEMBERGROUP *****/
+#frost {
+	--accent1:190, 232, 235;
+    	--accent2:52, 181, 209;
+	--gradient:linear-gradient(to right, rgba(var(--accent1),0.6), rgba(var(--accent2),0.6));
+}
+
+/***** HEATWAVE MEMBERGROUP *****/
+#heatwave {
+	--accent1:191, 54, 120;
+	--accent2:255, 179, 64;
+	--gradient:linear-gradient(to right, rgba(var(--accent1),0.6), rgba(var(--accent2),0.6));
+}
+
+/***** HURRICANE MEMBERGROUP *****/
+#hurricane {
+	--accent1:146, 88, 219;
+	--accent2:239, 94, 48;
+	--gradient:linear-gradient(to right, rgba(var(--accent1),0.6), rgba(var(--accent2),0.6));
+}
+
+/***** INCANDESCENT MEMBERGROUP *****/
+#incandescent {
+	--accent1:245, 149, 202;
+	--accent2:96, 208, 214;
+	--gradient:linear-gradient(to right, rgba(var(--accent1),0.6), rgba(var(--accent2),0.6));
+}
+
+/***** LIGHTNING MEMBERGROUP *****/
+#lightning {
+	--accent1:145, 80, 191;
+	--accent2:189, 49, 119;
+	--gradient:linear-gradient(to right, rgba(var(--accent1),0.6), rgba(var(--accent2),0.6));
+}
+
+/***** LUNARECLIPSE MEMBERGROUP *****/
+#lunareclipse {
+	--accent1:235, 204, 47;
+	--accent2:127, 98, 245;
+	--gradient:linear-gradient(to right, rgba(var(--accent1),0.6), rgba(var(--accent2),0.6));
+}
+
+/***** METEORITE MEMBERGROUP *****/
+#meteorite {
+	--accent1:189, 101, 51;
+	--accent2:215, 219, 222;
+	--gradient:linear-gradient(to right, rgba(var(--accent1),0.6), rgba(var(--accent2),0.6));
+}
+
+/***** MIDNIGHT MEMBERGROUP *****/
+#midnight {
+	--accent1:129, 72, 176;
+	--accent2:58, 141, 186;
+	--gradient:linear-gradient(to right, rgba(var(--accent1),0.6), rgba(var(--accent2),0.6));
+}
+
+/***** MIST MEMBERGROUP *****/
+#mist {
+	--accent1:170, 230, 110;
+	--accent2:218, 130, 232;
+	--gradient:linear-gradient(to right, rgba(var(--accent1),0.6), rgba(var(--accent2),0.6));
+}
+
+/***** MONSOON MEMBERGROUP *****/
+#monsoon {
+	--accent1:48, 182, 184;
+	--accent2:255, 102, 71;
+	--gradient:linear-gradient(to right, rgba(var(--accent1),0.6), rgba(var(--accent2),0.6));
+}
+
+
+/***** MORNING MEMBERGROUP *****/
+#morning {
+	--accent1:232, 159, 72;
+	--accent2:203, 71, 111;
+	--gradient:linear-gradient(to right, rgba(var(--accent1),0.6), rgba(var(--accent2),0.6));
+}
+
+/***** NIGHT MEMBERGROUP *****/
+#night {
+	--accent1:32, 97, 150;
+	--accent2:42, 201, 212;
+	--gradient:linear-gradient(to right, rgba(var(--accent1),0.6), rgba(var(--accent2),0.6));
+}
+
+/***** OPALINE MEMBERGROUP *****/
+#opaline {
+	--accent1:232, 122, 179;
+    	--accent2:73, 130, 218;
+	--gradient:linear-gradient(to right, rgba(var(--accent1),0.6), rgba(var(--accent2),0.6));
+}
+
+/***** SANDSTORM MEMBERGROUP *****/
+#sandstorm {
+	--accent1:247, 204, 92;
+	--accent2:255, 110, 156;
+	--gradient:linear-gradient(to right, rgba(var(--accent1),0.6), rgba(var(--accent2),0.6));
+}
+
+/***** SLEET MEMBERGROUP *****/
+#sleet {
+	--accent1:184, 30, 157;
+	--accent2:29, 96, 173;
+	--gradient:linear-gradient(to right, rgba(var(--accent1),0.6), rgba(var(--accent2),0.6));
+
+}
+
+/***** SOLARFLARE MEMBERGROUP *****/
+#solarflare {
+	--accent1:247, 155, 30;
+	--accent2:255, 87, 132;
+	--gradient:linear-gradient(to right, rgba(var(--accent1),0.6), rgba(var(--accent2),0.6));
+}
+
+/***** STARRY MEMBERGROUP *****/
+#starry {
+	--accent1:65, 176, 160;
+	--accent2:216, 98, 146;
+	--gradient:linear-gradient(to right, rgba(var(--accent1),0.6), rgba(var(--accent2),0.6));
+}
+
+/***** SUNDRENCHED MEMBERGROUP *****/
+#sundrenched {
+	--accent1:241, 98, 50;
+	--accent2:43, 191, 241;
+	--gradient:linear-gradient(to right, rgba(var(--accent1),0.6), rgba(var(--accent2),0.6));
+}
+
+/***** SUNRISE MEMBERGROUP *****/
+#sunrise {
+	--accent1:222, 128, 183;
+	--accent2:221, 200, 127;
+	--gradient:linear-gradient(to right, rgba(var(--accent1),0.6), rgba(var(--accent2),0.6));
+}
+
+/***** SUNSET MEMBERGROUP *****/
+#sunset {
+	--accent1:210, 128, 110;
+	--accent2:110, 167, 210;
+	--gradient:linear-gradient(to right, rgba(var(--accent1),0.6), rgba(var(--accent2),0.6));
+}
+
+/***** SUNSHOWERS MEMBERGROUP *****/
+#sunshowers {
+	--accent1:66, 158, 214;
+	--accent2:101, 187, 108;
+	--gradient:linear-gradient(to right, rgba(var(--accent1),0.6), rgba(var(--accent2),0.6));
+}
+
+/***** SUPERNOVA MEMBERGROUP *****/
+#supernova {
+	--accent1:247, 155, 30;
+	--accent2:255, 87, 132;
+	--gradient:linear-gradient(to right, rgba(var(--accent1),0.6), rgba(var(--accent2),0.6));
+}
+
+/***** THUNDERSTORMS MEMBERGROUP *****/
+#thunderstorms {
+	--accent1:247, 141, 197;
+	--accent2:255, 163, 64;
+	--gradient:linear-gradient(to right, rgba(var(--accent1),0.6), rgba(var(--accent2),0.6));
+}
+
+/***** TROPICAL MEMBERGROUP *****/
+#tropical {
+	--accent1:254, 210, 51;
+	--accent2:4, 182, 194;
+	--gradient:linear-gradient(to right, rgba(var(--accent1),0.6), rgba(var(--accent2),0.6));
+}
+
+/***** TWILIGHT MEMBERGROUP *****/
+#twilight {
+	--accent1:137, 110, 210;
+	--accent2:110, 210, 180;
+	--gradient:linear-gradient(to right, rgba(var(--accent1),0.6), rgba(var(--accent2),0.6));
+}
+
+/***** TWISTER MEMBERGROUP *****/
+#twister {
+	--accent1:117, 45, 135;
+	--accent2:168, 32, 32;
+	--gradient:linear-gradient(to right, rgba(var(--accent1),0.6), rgba(var(--accent2),0.6));
+}
+
+/***** VERDANT MEMBERGROUP *****/
+#verdant {
+	--accent1:32, 194, 126;
+	--accent2:214, 214, 88;
+	--gradient:linear-gradient(to right, rgba(var(--accent1),0.6), rgba(var(--accent2),0.6));
+}
+
+/***** WILDFIRE MEMBERGROUP *****/
+#wildfire {
+	--accent1:0, 191, 219;
+	--accent2:239, 31, 62;
+	--gradient:linear-gradient(to right, rgba(var(--accent1),0.6), rgba(var(--accent2),0.6));
+}
+S
